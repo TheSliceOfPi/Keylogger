@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/Lab6/keylogger.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Documents/Lab6/keylogger.ko /home/pi/Documents/Lab6/keylogger.o /home/pi/Documents/Lab6/keylogger.mod.o ;  true
